@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-y: scroll;
+}
+
+header {
+    background-image: linear-gradient(blue, red);
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-left: 43%;
+}
+
+nav {
+    width: 100%;
+    font-family: Dosis, sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#Home {
+    border: 3px solid lightblue;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-decoration: none;
+    color: blue;
+}
+
+#Who_I_Am {
+    border: 3px solid lightblue;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-decoration: none;
+    color: blue;
+}
+
+#Accomplishments {
+    border: 3px solid lightblue;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-decoration: none;
+    color: blue;
+}
+
+#My_Skills {
+    border: 3px solid lightblue;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-decoration: none;
+    color: blue;
+}
+
+#Chess {
+    border: 3px solid lightblue;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-decoration: none;
+    color: blue;
+}
+
+.title {
+    background-image: url();
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: Red Hat Display, sans-serif;
+    color: black;
+    font-size: 40px;
+}
+
+.title div {
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 20px;
+    color: black;
+}
+
+.title nav {
+    width: 100%;
+    font-family: Dosis, sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+footer {
+    background-image: linear-gradient(red, blue);
+    height: 30vh;
+}
+
+footer div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+span {
+    font-family: Montserrat, sans-serif;
+    margin: 10px;
+}
+
+h3 {
+    font-family: Red Hat Display, sans-serif;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
