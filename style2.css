@@ -81,13 +81,8 @@ nav {
 }
 
 .title {
-    background-image: url();
-    background-repeat: no-repeat;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
     text-align: center;
-    background-image: linear-gradient(black, white, black, white);
+    background-image: linear-gradient(black, white, black);
 }
 
 h1 {
@@ -101,7 +96,7 @@ h1 {
     font-size: 20px;
     text-align: center;
     margin-right: 20px;
-    color: pink;
+    color: blue;
 }
 
 .title nav {
@@ -115,23 +110,49 @@ h1 {
 
 #Things_To_Know {
     border: 3px solid blue;
-    background: lightblue;
+    background: black;
     display: flex;
     justify-content: center;
     width: 50%;
     text-decoration: none;
-    color: blue;
+    color: white;
 }
 
 
 #My_Timeline {
     border: 3px solid blue;
-    background: lightblue;
+    background: black;
     display: flex;
     justify-content: center;
     width: 50%;
     text-decoration: none;
-    color: blue;
+    color: white;
+}
+
+h2 {
+  margin-left: 20px;
+    font-family: Montserrat, sans-serif;
+    font-size: 26px;
+    color: lightskyblue;
+}
+
+.usefuls {
+  background-image: linear-gradient(gray, white, gray, red);
+}
+
+.heading {
+  font-family: Red Hat Display, sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-left: 20px;
+}
+
+.ratings, .summary {
+  font-family: IBM Plex Sans, sans-serif;
+  font-size: 20px;
+  color: black;
+  line-height: 1.6;
+  padding: 20px;
 }
 
 
