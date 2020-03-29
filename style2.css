@@ -87,7 +87,7 @@ nav {
 
 h1 {
     font-family: Red Hat Display, sans-serif;
-    color: blue;
+    color: black;
     font-size: 40px;
 }
 
@@ -96,7 +96,7 @@ h1 {
     font-size: 20px;
     text-align: center;
     margin-right: 20px;
-    color: blue;
+    color: black;
 }
 
 .title nav {
@@ -109,24 +109,24 @@ h1 {
 }
 
 #Things_To_Know {
-    border: 3px solid blue;
-    background: black;
+    border: 3px solid black;
+    background: white;
     display: flex;
     justify-content: center;
     width: 50%;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 
 #My_Timeline {
-    border: 3px solid blue;
+    border: 3px solid white;
     background: black;
     display: flex;
     justify-content: center;
     width: 50%;
     text-decoration: none;
-    color: white;
+    color: #f1f1f1;
 }
 
 h2 {
@@ -136,8 +136,12 @@ h2 {
     color: lightskyblue;
 }
 
+.content{
+  background: gray;
+}
+
 .usefuls {
-  background-image: linear-gradient(gray, white, gray, red);
+  background-image: linear-gradient(gray, white, gray);
 }
 
 .heading {
@@ -155,13 +159,51 @@ h2 {
   padding: 20px;
 }
 
+.redirect {
+    font-family: Bitter, sans-serif;
+    font-size: 13px;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 7px;
+    background-color: black;
+    font-weight: 300;
+    padding: 8px;
+    text-decoration: none;
+}
 
+.redirect:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+    border-radius: 7px;
+}
 
+.timeline{
+  background-image: linear-gradient(gray, silver, red);
+}
 
+.timeline .heading{
+  padding-left: 40px;
+}
+
+.timeline p{
+  font-family: IBM Plex Sans, sans-serif;
+  font-size: 20px;
+  color: black;
+  padding: 20px;
+}
+
+.text {
+  font-family: Nunito, sans-serif;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  background: red;
+}
 
 footer {
     background-image: linear-gradient(red, blue);
-    height: 30vh;
+    height: 31vh;
 }
 
 footer div {
@@ -187,4 +229,97 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 700px)
+{
+  html{
+    text-align: center;
+  }
+#Who_I_Am, #Home, #Chess, #Accomplishments, #My_Story, #My_Skills{
+  width: 20%;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  line-height: 25px;
+  padding: 2px;
+}
+
+.logo {
+  margin-left: 2%;
+}
+
+  h2, .heading {
+    margin-right: 30px;
+  }
+  
+  .skills {
+    text-align: center;
+  }
+
+footer {
+  text-align: center;
+}
+
+}
+
+ @media (max-height: 400px)
+  {
+#Who_I_Am, #Home, #Accomplishments, #My_Story, #My_Skills{
+  width: 20%;
+  font-size: 25px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  line-height: 25px;
+  padding: 3px;
+}
+
+.logo {
+  margin-left: 37%;
+}
+
+.title div {
+  margin-top: -330px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+footer {
+  text-align: center;
+  height: 50vh;
+}
+
+}
+
+@media (max-width: 374px) {
+  footer {
+  text-align: center;
+  height: 40vh;
+}
+
+  footer div{
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 961px) {
+  .logo {
+    margin-left: 37%;
+  }
+  
+  footer {
+    height: 20vh;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1025px){
+  .logo {
+    margin-left: 40%;
+  }
+  
+  footer {
+    height: 15vh;
+  }
 }

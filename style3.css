@@ -81,44 +81,121 @@ nav {
 }
 
 .title {
-    background-image: url();
-    background-repeat: no-repeat;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
+    background: #f1f1f1;
     text-align: center;
 }
 
 h1 {
     font-family: Red Hat Display, sans-serif;
-    color: black;
+    color: pink;
     font-size: 40px;
+    background: deepskyblue;
 }
 
 .title div {
     font-family: Nunito, sans-serif;
     font-size: 20px;
-    text-align: right;
-    margin-right: 20px;
-    color: black;
+    text-align: center;
+    color: deepskyblue;
 }
 
 .title nav {
-    width: 100%;
-    font-family: Dosis, sans-serif;
-    font-size: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  width: 100%;
+  font-family: Dosis, sans-serif;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
+#My_Story {
+  background: deepskyblue;
+  border-radius: 7px;
+  text-decoration: none;
+  width: 50%;
+  border: 3px solid white;
+  color: pink;
+}
 
+#Affiliations {
+  background: deepskyblue;
+  border-radius: 7px;
+  text-decoration: none;
+  width: 50%;
+  border: 3px solid white;
+  color: pink;
+}
 
+h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 26px;
+  margin-left: 20px;
+  color: deepskyblue;
+}
 
+.main {
+  background: pink;
+  border: deepskyblue dotted 5px;
+}
+
+.text {
+  font-family: Nunito, sans-serif;
+  font-size: 18px;
+  padding-left: 20px;
+  color: black;
+  text-align: left;
+}
+
+.main p {
+  font-family: IBM Plex Sans, sans-serif;
+  font-size: 18px;
+  color: salmon;
+  padding: 0px 20px;
+  line-height: 20px;
+}
+
+.main .headings {
+  color: #f1f1f1;
+  text-shadow: -1.5px -1.5px 0 deepskyblue,
+	1.5px -1.5px 0 deepskyblue,
+	-1.5px 1.5px 0 deepskyblue,
+	1.5px 1.5px 0 deepskyblue;
+}
+
+.orgs {
+  background: deepskyblue;
+  border: pink dotted 5px;
+}
+
+.orgs h2 {
+  color: pink;
+}
+
+.headings {
+  font-family: Red Hat Display, sans-serif;
+  font-size: 20px;
+  color: black;
+  text-shadow: -1px -1px 0 pink,
+	1px -1px 0 pink,
+	-1px 1px 0 pink,
+	1px 1px 0 pink;
+  padding-left: 40px;
+}
+
+.orgs p {
+  font-family: IBM Plex Sans, sans-serif;
+  font-size: 18px;
+  color: #f1f1f1;
+  padding: 0px 20px;
+}
+
+.orgs p a {
+  color: #F1F1F1;
+}
 
 footer {
     background-image: linear-gradient(red, blue);
-    height: 30vh;
+    height: 31vh;
 }
 
 footer div {
@@ -144,4 +221,109 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 700px)
+{
+  header, .title, .story, .struggles {
+    text-align: center;
+  }
+#Who_I_Am, #Chess, #Accomplishments, #My_Skills, #Home{
+  width: 20%;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+  
+  #My_Story, #Affiliations, #My_Struggles {
+  width: 50%;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  }
+
+.logo {
+  margin-left: 2%;
+}
+  .text {
+    padding-right: 20px;
+  }
+
+  h2 {
+    margin-right: 30px;
+  }
+  
+  .skills {
+    text-align: center;
+  }
+
+footer {
+  text-align: center;
+}
+
+}
+
+ @media (max-height: 400px)
+  {
+#Who_I_Am, #Chess, #Accomplishments, #My_Story, #My_Skills{
+  width: 20%;
+  font-size: 25px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  line-height: 25px;
+  padding: 3px;
+}
+
+.logo {
+  margin-left: 37%;
+}
+
+.title div {
+  margin-top: -330px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+footer {
+  text-align: center;
+  height: 50vh;
+}
+
+}
+
+@media (max-width: 374px) {
+  footer {
+  text-align: center;
+  height: 40vh;
+}
+
+  footer div{
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 961px) {
+  .logo {
+    margin-left: 37%;
+  }
+  
+  footer {
+    height: 20vh;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1025px){
+  .logo {
+    margin-left: 40%;
+  }
+  
+  footer {
+    height: 15vh;
+  }
 }
