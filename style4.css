@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-y: scroll;
+}
+
+header {
+    background-image: linear-gradient(blue, red);
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-left: 43%;
+}
+
+header nav{
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+nav {
+    font-family: Dosis, sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#Who_I_Am, #Accomplishments, #My_Story, #Chess {
+    border: 3px solid lightblue;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    text-decoration: none;
+    color: blue;
+}
+
+#Home_Page, #Chess_Page, #Story_Page {
+    border: 3px solid lightblue;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-decoration: none;
+    color: red;
+}
+
+.title {
+    background-image: linear-gradient(to right, blue, orange 20%, orange 80%, blue 100%);
+    text-align: center;
+}
+
+h1 {
+    font-family: Red Hat Display, sans-serif;
+    color: red;
+    font-size: 40px;
+}
+
+.title div {
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 26%;
+    color: blue;
+    border-width: 3px 0px;
+    border-style: dashed;
+    border-color: #f1f1f1;
+}
+
+footer {
+    background-image: linear-gradient(red, blue);
+    height: 31vh;
+}
+
+footer div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+span {
+    font-family: Montserrat, sans-serif;
+    margin: 10px;
+}
+
+h3 {
+    font-family: Red Hat Display, sans-serif;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

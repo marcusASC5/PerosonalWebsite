@@ -26,8 +26,12 @@ header {
     margin-left: 43%;
 }
 
+header nav{
+    width: 75%;
+    margin-left: 12.5%;
+}
+
 nav {
-    width: 100%;
     font-family: Dosis, sans-serif;
     font-size: 30px;
     display: flex;
@@ -35,49 +39,23 @@ nav {
     justify-content: center;
 }
 
-#Home {
+#Who_I_Am, #Accomplishments, #My_Skills, #Chess {
     border: 3px solid lightblue;
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 25%;
     text-decoration: none;
     color: blue;
 }
 
-#Who_I_Am {
+#Home_Page, #Chess_Page, #Music_Page {
     border: 3px solid lightblue;
+    background: #f1f1f1;
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 33%;
     text-decoration: none;
-    color: blue;
-}
-
-#Accomplishments {
-    border: 3px solid lightblue;
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    text-decoration: none;
-    color: blue;
-}
-
-#My_Skills {
-    border: 3px solid lightblue;
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    text-decoration: none;
-    color: blue;
-}
-
-#Chess {
-    border: 3px solid lightblue;
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    text-decoration: none;
-    color: blue;
+    color: red;
 }
 
 .title {
