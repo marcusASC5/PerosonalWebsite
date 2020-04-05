@@ -35,47 +35,11 @@ nav {
     justify-content: center;
 }
 
-#Who_I_Am {
+#Who_I_Am, #Accomplishments, #My_Story, #My_Skills, #Chess {
     border: 3px solid lightblue;
     display: flex;
     justify-content: center;
-    width: 50%;
-    text-decoration: none;
-    color: blue;
-}
-
-#Accomplishments {
-    border: 3px solid lightblue;
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    text-decoration: none;
-    color: blue;
-}
-
-#My_Story {
-    border: 3px solid lightblue;
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    text-decoration: none;
-    color: blue;
-}
-
-#My_Skills {
-    border: 3px solid lightblue;
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    text-decoration: none;
-    color: blue;
-}
-
-#Chess {
-    border: 3px solid lightblue;
-    display: flex;
-    justify-content: center;
-    width: 50%;
+    width: 20%;
     text-decoration: none;
     color: blue;
 }
@@ -101,6 +65,17 @@ h1 {
     text-align: right;
     margin-right: 20px;
     color: black;
+}
+
+#Chess_Page, #Story_Page, #Music_Page {
+    border: 5px 3px;
+    border-style: solid;
+    border-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    width: 33%;
+    text-decoration: none;
+    color: red;
 }
 
 .content div p {
