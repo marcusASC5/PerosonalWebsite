@@ -51,6 +51,7 @@ nav {
 #Home_Page, #Story_Page, #Music_Page {
     border: 3px solid lightblue;
     background: #f1f1f1;
+    font-size: 30.5px;
     display: flex;
     justify-content: center;
     width: 50%;
@@ -160,6 +161,15 @@ h2 {
   background-image: linear-gradient(gray, silver, red);
 }
 
+.help {
+  font-family: Nunito, sans-serif;
+  font-size: 18px;
+  color: black;
+  text-align: left;
+  padding-left: 20px;
+  margin-top: -20px;
+}
+
 .timeline .heading{
   padding-left: 40px;
 }
@@ -169,6 +179,10 @@ h2 {
   font-size: 20px;
   color: black;
   padding: 20px;
+}
+
+#p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10, #p11{
+  display: none;
 }
 
 .text {
@@ -214,7 +228,7 @@ h3 {
   html{
     text-align: center;
   }
-#Who_I_Am, #Home, #Chess, #Accomplishments, #My_Story, #My_Skills{
+#Who_I_Am, #Accomplishments, #My_Story, #My_Skills{
   width: 20%;
   font-size: 20px;
   text-align: center;

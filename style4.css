@@ -51,9 +51,10 @@ nav {
 #Home_Page, #Chess_Page, #Story_Page {
     border: 3px solid lightblue;
     background: #f1f1f1;
+    font-size: 30.5px;
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 33%;
     text-decoration: none;
     color: red;
 }
@@ -78,6 +79,38 @@ h1 {
     border-width: 3px 0px;
     border-style: dashed;
     border-color: #f1f1f1;
+}
+
+.main {
+  text-align: left;
+  padding: 20px;
+  background: lavender;
+  border: 4px dotted red;
+}
+
+h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  color: mediumspringgreen;
+}
+
+.change {
+  color: cornflowerblue;
+}
+
+.main p {
+  font-family: IBM Plex Sans, sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.main div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-width: 3px 0px;
+  border-style: dashed;
+  border-color: silver;
 }
 
 footer {
@@ -108,4 +141,80 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 700px)
+{
+  html{
+    text-align: center;
+  }
+#Who_I_Am, #Chess, #Accomplishments, #My_Story{
+  width: 20%;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  line-height: 25px;
+  padding: 2px;
+}
+  
+.logo {
+  margin-left: 2%;
+}
+footer {
+  text-align: center;
+}
+
+}
+
+ @media (max-height: 400px)
+  {
+#Who_I_Am, #Chess, #Accomplishments, #My_Story{
+  width: 20%;
+  font-size: 25px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  line-height: 25px;
+  padding: 3px;
+}
+
+.logo {
+  margin-left: 37%;
+}
+footer {
+  text-align: center;
+  height: 50vh;
+}
+
+}
+
+@media (max-width: 374px) {
+  footer {
+  text-align: center;
+  height: 40vh;
+}
+
+  footer div{
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 961px) {
+  .logo {
+    margin-left: 37%;
+  }
+ footer {
+    height: 20vh;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1025px){
+  .logo {
+    margin-left: 40%;
+  }
+  
+  footer {
+    height: 15vh;
+  }
 }
