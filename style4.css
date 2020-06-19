@@ -113,6 +113,42 @@ h2 {
   border-color: silver;
 }
 
+.display {
+  background-image: linear-gradient(to right, papayawhip 10%, mediumslateblue 30%, mediumslateblue 70%, papayawhip 90%);
+  text-align: center;
+  border: 5px dotted navy;
+}
+
+.display h2 {
+  color: lavender;
+}
+
+.display p {
+  font-family: Nunito, sans-serif;
+  font-size: 20px;
+  color: papayawhip;
+  line-height: 20px;
+  border-width: 3px 0px;
+  border-style: dashed;
+  border-color: #f1f1f1;
+  margin: 5px;
+  padding: 5px;
+}
+
+.head {
+  padding: 20px 26%;
+}
+
+.earsketch {
+  display: flex;
+  justify-content: center;
+}
+
+.noteflight {
+  display: flex;
+  justify-content: space-around;
+}
+
 footer {
     background-image: linear-gradient(red, blue);
     height: 31vh;
@@ -145,13 +181,12 @@ h3 {
 
 @media only screen and (max-width: 700px)
 {
-  html{
+  body {
     text-align: center;
   }
 #Who_I_Am, #Chess, #Accomplishments, #My_Story{
   width: 20%;
   font-size: 20px;
-  text-align: center;
   display: flex;
   align-items: center;
   line-height: 25px;
@@ -161,13 +196,21 @@ h3 {
 .logo {
   margin-left: 2%;
 }
+
+  .main div, .noteflight, .earsketch {
+    display: inline-table;
+  }
+  iframe {
+    width: 300px;
+    height: 220px;
+  }
 footer {
   text-align: center;
 }
 
 }
 
- @media (max-height: 400px)
+@media (max-height: 400px)
   {
 #Who_I_Am, #Chess, #Accomplishments, #My_Story{
   width: 20%;
@@ -189,7 +232,10 @@ footer {
 
 }
 
-@media (max-width: 374px) {
+@media only screen and (max-width: 374px) {
+  html {
+    text-align: center;
+  }
   footer {
   text-align: center;
   height: 40vh;
