@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -143,12 +143,15 @@
           My Chess Timeline!
         </h2>
         <br>
+        <div class="help">
+          *Click on the headings below to read about one of these events!*
+        </div>
         <br>
         <ul style="list-style-type:circle;">
-        <div class="heading">
+        <div class="heading" onclick="myFunction()">
           <b><li>The Origin! (2012)</li></b>
         </div>
-        <p>
+        <p id="p1">
           I had no intentions of playing Chess when I first learned about it.
           It was introduced into my elementary school as a mandatory class, and I, honestly, just saw it as a free
           period in disguise. It was 4th Grade, and I just wanted to do math all the time, so I didn't care much for anything else.
@@ -161,12 +164,10 @@
           Coach Stephanie was from an organization called Chess-in-the-Schools (this will be important later) and I give her a lot of 
           credit for where I am today.
           </p>
-          <br>
-          <br>
-        <div class="heading">
+        <div class="heading" onclick="myFunction2()">
           <b><li>My Very First Tournament! (2012)</li></b>
         </div>
-        <p>
+        <p id="p2">
           Thanks to the newly instituted program at my elementary school, PS 16, my school was given the opportunity to host
           tournaments by Chess-in-the-Schools and that meant it was an opportunity for me to shine! With my gym teacher and Coach
           Stephanie both insisting that this would be good for me, and my mom convinced that it couldn't possibly be a waste, since
@@ -175,10 +176,10 @@
           While receiving my trophy, though, one of the Assistant Tournament Directors said, "Keep killing it man!", even though we hadn't
           known each other, and that right there solidified my interest in Chess.
         </p>
-          <div class="heading">
+          <div class="heading" onclick="myFunction3()">
           <b><li>New Beginnings (2014)</li></b>
         </div>
-        <p>
+        <p id="p3">
           Heading into Middle School now. I got into IS 318, which--at the time I didn't know this--was really popular for its 
           legendary chess team. Due to my past experiences with chess in elementary school, which to this day I still don't know how
           the school found out about, my "shop" class was Chess and I got placed into the homeroom with all of the chess kids. 
@@ -188,10 +189,10 @@
           friends, and hopefully get to an even higher rating than I currently had, and my rating then was...well, I was unrated! I had
           a lot of work to do if I wanted to be as good as everyone else.
         </p>
-        <div class="heading">
+        <div class="heading" onclick="myFunction4()">
           <b><li>Breaking Ground, Making History (2014-2015)</li></b>
         </div>
-        <p>
+        <p id="p4">
           I guess I had really good drive back then because I took every chess-related opportunity I could. I was blessed that my
           middle school had a variety of coaches, all helping every student get better at Chess in any ways they possibly could. I
           finally joined my friends after playing in my first rated tournament, scoring 2/4 points, which is actually really impressive.
@@ -200,10 +201,10 @@
           in all of my school's history. It was unbelievable to me, that I, the unrated kid, skyrocketed and made history at the same time,
           and I was convinced that I, too, was legendary. It was only up from here.
         </p>
-        <div class="heading">
+        <div class="heading" onclick="myFunction5()">
           <b><li>A Champion?! (2016)</li></b>
         </div>
-        <p>
+        <p id="p5">
           How do you get your face on television? Better yet, how do you get your face on television in an entirely different continent?
           It's simple, you see. Chess! I don't know if this is just a mere coincidence, but a Japanese reporter came to my school and
           she wanted to put the life of an incredible chess student on display. My friend Vicki Yang, an 8th Grader at the time, was the
@@ -217,10 +218,10 @@
           my rapid progress in Chess, as opposed to most students. She ended up interviewing me and coming into my home, and captured my life 
           for Japanese news to see, and I never even saw this coming.
         </p>
-          <div class="heading">
+          <div class="heading" onclick="myFunction6()">
           <b><li>Two Champions (2016)</li></b>
         </div>
-        <p>
+        <p id="p6">
           In 8th Grade, the World Chess Championship of 2016 was occurring in NYC, so
           the world champion of Chess, Magnus Carlsen, was coming to New York and
           it was an opportunity my school seized immediately. We got him to come
@@ -234,10 +235,10 @@
           game. I mean, he destroyed me, but it was such an honor to be
           destroyed by <em>him</em>.
         </p>
-         <div class="heading">
+         <div class="heading" onclick="myFunction7()">
           <b><li>Returning the Favor (2017-2018)</li></b>
         </div>
-        <p>
+        <p id="p7">
           Welcome to high school. Chess-in-the-Schools(abbreviated CIS) offers a college prep program and I got into it,
           which was pretty great because I got to stay connected to a lot of my Chess friends. Within the
           program, we are given the opportunity to work inside the tournaments that CIS hosts, and I also got into that,
@@ -246,10 +247,10 @@
           PS 107 in the Bronx and Harlem Police Athletic League--and formed some awesome bonds with the kids, even though
           they were all 5th Graders and younger.
         </p>
-         <div class="heading">
+         <div class="heading" onclick="myFunction8()">
           <b><li>Strong Individual (2018/2019)</li></b>
         </div>
-        <p>
+        <p id="p8">
           Every Memorial Day weekend, there is a tournament hosted in New Jersey
           called the United States Amateur East Tournament, the individual
           version, as there is a team tournament hosted on every President's Day
@@ -279,10 +280,10 @@
           Best Player Under 1900. All in all, it was really nice to be able to
           show two consecutive strong performances at these annual events.
         </p>
-        <div class="heading">
+        <div class="heading" onclick="myFunction9()">
           <b><li>My Favorite Title (2019)</li></b>
         </div>
-        <p>
+        <p id="p9">
           My high school, Edward R. Murrow High School, is quite popular for its feats in Chess, with a history of
           Experts, Masters and even International Masters coming out of the school, some of which were my coaches back in IS 318.
           At this point, I hadn't receieved any of these titles yet, but I was doing a lot of extra work for the Chess team 
@@ -293,15 +294,34 @@
           accomplishments of the Chess team, so that was pretty cool too. I may not be an Expert or Master yet, but being Captain is fine
           enough.
         </p>
-        <div class="heading">
+        <div class="heading" onclick="myFunction10()">
           <b><li>EXPERTise (2020)</li></b>
         </div>
-        <p>
+        <p id="p10">
           The first chess event of 2020! Woohoo! But the most important chess event in my entire chess career.
           I played in a tournament at the Marshall Chess Club on MLK Jr. Day and I played <i>SO</i> well.
           I beat an 1180, a 2101, an FM rated 2306(!!), drew a 2200, and lost to an FM rated 2260. It was
           an amazing tournament, where I performed far above my actual rating and finally boosted me over 2000,
           so I, now officially, am an expert at the game of Chess. That. Feels. Amazing.
+        </p>
+        <div class="heading" onclick="myFunction11()">
+          <b><li>TBD: The Best [Tournament] Director (2020)</li></b>
+        </div>
+        <p id="p11">
+          Okay, maybe it's a stretch to say that I'm the best tournament director, but hear me out. Inside of CIS, students can
+          get trained to become an Assistant Tournament Director at the tournaments hosted by CIS almost every weekend. After more
+          than two years of being a tournament director, I have definitely gotten some recognition for my really good work as a TD
+          (Tournament Director). On top of that, when one of CIS's normal announcers for the awards ceremony was fathering a child,
+          someone had to announce the awards, and I was nominated, for multiple reasons. I have since become the go-to announcer
+          for award ceremonies and the parents typically wait for me to show up whenever it's time for awards. I've been greatly
+          appreciated for stepping up, as it really isn't everyday that you see a teenager announcing awards at a tournament. To
+          bring everything full circle, my very first coach, Stephanie Ballom, invited me to be a tournament director at the
+          tournaments she hosts at the school she currently teaches at. Eager to do it, I went and had an awesome time as a TD,
+          doing a really good job and establishing quite the quick rapport with the new community. At the end, I was asked to do
+          the awards, since I've just been noted as a great announcer. While it all was fun and made me feel really good for proving
+          myself once again, it was even greater validation to have parents come up to me and thank me for announcing the awards.
+          Some had recognized me from CIS tournaments and they acknowledged how well I had done there and at the tournament, too.
+          If I'm not the best, I'm at least <strong><i>pretty good</i></strong>.
         </p>
         </ul>
         <div class="text">
@@ -309,6 +329,96 @@
         </div>
       </div>
     </div>
+    <script>
+        function myFunction() {
+      var x = document.getElementById("p1");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+      function myFunction2() {
+      var x = document.getElementById("p2");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+      function myFunction3() {
+      var x = document.getElementById("p3");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+      function myFunction4() {
+      var x = document.getElementById("p4");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+      function myFunction5() {
+      var x = document.getElementById("p5");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+      function myFunction6() {
+      var x = document.getElementById("p6");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+      function myFunction7() {
+      var x = document.getElementById("p7");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+      function myFunction8() {
+      var x = document.getElementById("p8");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+      function myFunction9() {
+      var x = document.getElementById("p9");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+      function myFunction10() {
+      var x = document.getElementById("p10");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+      function myFunction11() {
+      var x = document.getElementById("p11");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+      </script>
     <footer>
       <br />
       <div>

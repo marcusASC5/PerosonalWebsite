@@ -51,6 +51,7 @@ nav {
 #Home_Page, #Chess_Page, #Music_Page {
     border: 3px solid lightblue;
     background: #f1f1f1;
+    font-size: 30.5px;
     display: flex;
     justify-content: center;
     width: 33%;
@@ -171,6 +172,11 @@ h2 {
   color: #F1F1F1;
 }
 
+#toggle1, #toggle2, #toggle3, #toggle4, #toggle5, #toggle6, #toggle7, #toggle8, #toggle9, #toggle10, #toggle11,
+#toggle12, #toggle13, #toggle14, #toggle15, #toggle16, #toggle17, #toggle18, #toggle19, #toggle20 {
+  display: none;
+}
+
 footer {
     background-image: linear-gradient(red, blue);
     height: 31vh;
@@ -203,8 +209,11 @@ h3 {
 
 @media only screen and (max-width: 700px)
 {
-  header, .title, .story, .struggles {
+  html{
     text-align: center;
+  }
+  .main, .orgs, footer {
+    text-align: left;
   }
 #Who_I_Am, #Chess, #Accomplishments, #My_Skills, #Home{
   width: 20%;
@@ -212,6 +221,7 @@ h3 {
   text-align: center;
   display: flex;
   align-items: center;
+  line-height: 25px;
   padding: 2px;
 }
   
