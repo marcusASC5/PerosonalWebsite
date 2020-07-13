@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(blue, red);
+    background-image: linear-gradient(lavender, midnightblue);
 }
 
 .logo {
@@ -45,7 +45,7 @@ nav {
     justify-content: center;
     width: 25%;
     text-decoration: none;
-    color: blue;
+    color: red;
 }
 
 #Home_Page, #Chess_Page, #Story_Page {
@@ -57,10 +57,11 @@ nav {
     width: 33%;
     text-decoration: none;
     color: red;
+    background: midnightblue;
 }
 
 .title {
-    background-image: linear-gradient(to right, blue, orange 20%, orange 80%, blue 100%);
+    background-image: linear-gradient(to right, mediumslateblue, wheat 20%, wheat 80%, mediumslateblue 100%);
     text-align: center;
 }
 
@@ -75,7 +76,7 @@ h1 {
     font-size: 20px;
     text-align: center;
     padding: 0px 26%;
-    color: blue;
+    color: mediumslateblue;
     border-width: 3px 0px;
     border-style: dashed;
     border-color: #f1f1f1;
@@ -168,7 +169,7 @@ h2 {
 }
 
 footer {
-    background-image: linear-gradient(red, blue);
+    background-image: linear-gradient(sandybrown, peachpuff);
     height: 31vh;
 }
 

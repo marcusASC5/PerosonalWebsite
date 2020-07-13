@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(blue, red);
+    background-image: linear-gradient(blue, lightblue);
 }
 
 .logo {
@@ -57,6 +57,7 @@ nav {
     width: 33%;
     text-decoration: none;
     color: red;
+    background: skyblue;
 }
 
 .title {
@@ -178,7 +179,7 @@ h2 {
 }
 
 footer {
-    background-image: linear-gradient(red, blue);
+    background-image: linear-gradient(lightpink, deeppink);
     height: 31vh;
 }
 
