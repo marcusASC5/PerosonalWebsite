@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(blue, red);
+    background-image: linear-gradient(lavender, midnightblue);
 }
 
 .logo {
@@ -45,7 +45,7 @@ nav {
     justify-content: center;
     width: 25%;
     text-decoration: none;
-    color: blue;
+    color: red;
 }
 
 #Home_Page, #Chess_Page, #Story_Page {
@@ -57,16 +57,17 @@ nav {
     width: 33%;
     text-decoration: none;
     color: red;
+    background: midnightblue;
 }
 
 .title {
-    background-image: linear-gradient(to right, blue, orange 20%, orange 80%, blue 100%);
+    background-image: linear-gradient(to right, mediumslateblue, wheat 20%, wheat 80%, mediumslateblue 100%);
     text-align: center;
 }
 
 h1 {
     font-family: Red Hat Display, sans-serif;
-    color: red;
+    color: #f1f1f1;
     font-size: 40px;
 }
 
@@ -75,10 +76,28 @@ h1 {
     font-size: 20px;
     text-align: center;
     padding: 0px 26%;
-    color: blue;
+    color: mediumslateblue;
     border-width: 3px 0px;
     border-style: dashed;
     border-color: #f1f1f1;
+}
+
+.title nav {
+}
+
+#Music_Evolution, #My_Music {
+  width: 50%;
+  border-width: 0px 0px 3px 3px;
+  border-style: dashed;
+  border-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+
+#My_Music {
+  border-width: 0px 3px 3px 3px;
 }
 
 .main {
@@ -116,7 +135,7 @@ h2 {
 .display {
   background-image: linear-gradient(to right, papayawhip 10%, mediumslateblue 30%, mediumslateblue 70%, papayawhip 90%);
   text-align: center;
-  border: 5px dotted navy;
+  border: 4px dotted navy;
 }
 
 .display h2 {
@@ -150,7 +169,7 @@ h2 {
 }
 
 footer {
-    background-image: linear-gradient(red, blue);
+    background-image: linear-gradient(sandybrown, peachpuff);
     height: 31vh;
 }
 
@@ -181,7 +200,7 @@ h3 {
 
 @media only screen and (max-width: 700px)
 {
-  body {
+  html {
     text-align: center;
   }
 #Who_I_Am, #Chess, #Accomplishments, #My_Story{
@@ -193,17 +212,27 @@ h3 {
   padding: 2px;
 }
   
+  #My_Music, #Music_Evolution {
+    font-size: 30.5px;
+  }
+  
 .logo {
   margin-left: 2%;
 }
 
-  .main div, .noteflight, .earsketch {
-    display: inline-table;
+.main div, .noteflight, .earsketch {
+  display: inline-table;
+}
+
+  .main {
+    text-align: center;
   }
-  iframe {
-    width: 300px;
-    height: 220px;
-  }
+  
+iframe {
+  width: 300px;
+  height: 220px;
+}
+  
 footer {
   text-align: center;
 }
@@ -233,22 +262,51 @@ footer {
 }
 
 @media only screen and (max-width: 374px) {
-  html {
-    text-align: center;
+  .main div {
+    padding-left: 10px;
+    margin-left: -25px;
+    margin-right: -25px;
+    width: 260px;
+  }
+  
+  .main iframe {
+    width: 250px;
+    height: 200px;
   }
   footer {
   text-align: center;
   height: 40vh;
 }
+  
 
   footer div{
     text-align: left;
   }
 }
 
+@media only screen and (min-width: 405px) and (max-width: 415px){
+  #Music_Evolution {
+    dislpay: flex;
+    align-items: center;
+  }
+}
+
 @media only screen and (min-width: 501px) and (max-width: 961px) {
   .logo {
     margin-left: 37%;
+  }
+  
+  .noteflight {
+    display: block;
+  }
+  .noteflight iframe {
+    height: 200px;
+    width: 330px;
+  }
+  
+  .earsketch {
+    padding: 0px 26%;
+    display: block;
   }
  footer {
     height: 20vh;

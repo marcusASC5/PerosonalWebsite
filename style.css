@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(blue, red);
+    background-image: linear-gradient(#FADBD8, #AED6F1);
 }
 
 .logo {
@@ -36,7 +36,7 @@ nav {
 }
 
 #Who_I_Am, #Accomplishments, #My_Story, #My_Skills, #Chess {
-    border: 3px solid lightblue;
+    border: 3px solid lightskyblue;
     display: flex;
     justify-content: center;
     width: 20%;
@@ -77,6 +77,7 @@ h1 {
     width: 33%;
     text-decoration: none;
     color: red;
+    background: #AED6F1;
 }
 
 .content div p {
@@ -179,8 +180,8 @@ p {
 }
 
 footer {
-    background-image: linear-gradient(red, blue);
-    height: 35vh;
+    background-image: linear-gradient(#AED6F1, #FADBD8);
+    height: 31vh;
 }
 
 footer div {
